@@ -30,7 +30,7 @@ namespace MusicPlayer
         {
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Multiselect = true;
-            if(ofd.ShowDialog() == DialogResult.OK)
+            if(ofd.ShowDialog() == DialogResult.OK) 
             {
                 files = ofd.SafeFileNames;
                 path = ofd.FileNames;
